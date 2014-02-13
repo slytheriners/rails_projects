@@ -1,7 +1,7 @@
 TimeManager::Application.routes.draw do
-  get "tm/home"
-  get "tm/help"
-  get "tm/about"
+  get "tm_page/home"
+  get "tm_page/help"
+  get "tm_page/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
